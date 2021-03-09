@@ -544,11 +544,226 @@ body {
 .bars {
   display: none;
 }
-.Home , .About{
+.Home,
+.About,
+.Services,
+.Contact {
   width: 100%;
-  
+
   .content__left {
     @include contentLeft();
+  }
+}
+/* --------------------------------------- About Section ---------------------------------------------- */
+.AboutSection {
+  position: relative;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+.AboutSection__img {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.bold {
+  font-weight: bold;
+}
+.AboutSection__content {
+  @include flexCenter();
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.space {
+  margin-top: 50px;
+}
+
+.AboutSection__card {
+  position: relative;
+  width: 100%;
+  height: 120%;
+  border: 1px solid #ddd;
+  padding: 2rem 1.5rem;
+  transform: translateX(0);
+  transition: all 0.3s;
+  h3 {
+    color: #00467f;
+    margin-bottom: 20px;
+  }
+  .borderLine {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 3px;
+    background-color: #f48200;
+  }
+}
+.AboutSection__card:hover {
+  cursor: pointer;
+  border-radius: 1px solid #000000;
+  box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.25);
+  transform: scale(1.1);
+}
+
+/* --------------------------------------- Service Section ---------------------------------------------- */
+
+.ServicesSection {
+  margin-top: 150px;
+  .services__price {
+    h3 {
+      text-align: center;
+      margin-bottom: 50px;
+      color: #00467f;
+    }
+  }
+  .price {
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+    cursor: pointer;
+    h5 {
+      margin-left: 1rem;
+    }
+  }
+  .price:hover {
+    color: #f48200;
+  }
+  .services__img {
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.ServicesSection2 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+
+  h3 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #00467f;
+  }
+  .ServicesSection2__container {
+    img {
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }
+    h5,
+    img {
+      margin-bottom: 15px;
+    }
+    h5 {
+      font-size: 1rem;
+      font-weight: 700;
+    }
+    h5:hover {
+      color: #f48200;
+      cursor: pointer;
+    }
+  }
+}
+
+/* --------------------------------------- Contact Section ---------------------------------------------- */
+.contactSection{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  h2{
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  h2:before {
+    position: absolute;
+    content: "";
+    top: 130%;
+    left: 0;
+    width: 30px;
+    height: 3px;
+    background-color: black;
+  }
+  h4{
+    color: grey;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  p{
+    margin-bottom: 2rem;
+    font-weight: 550;
+    font-size: 0.95rem;
+  }
+  .contactSection__right{
+    .form-group{
+      margin-bottom: 1.5rem;
+    }
+    textarea{
+        width: 100%;
+        height: 100px;
+    }
+    button {
+      margin-top: 1rem;
+      color: white;
+      font-weight: bold;
+      font-size: 0.95rem;
+      text-align: center;
+      padding: 0.7rem 1.5rem 0.6rem;
+      border-radius: 6px;
+      border: 2px solid #f48200;
+      background-color: #f48200;
+      transition: all 0.3s;
+    }
+    button:hover {  
+      background: white;
+      color: #f48200;
+    }
+  }
+}
+
+
+/* --------------------------------------- Footer ---------------------------------------------- */
+.footer{
+  width: 100%;
+  height: 300px;
+  background-color: #171717;
+  color: #fff;
+  .container{
+    width: 60%;
+    padding-top: 4rem;
+  }
+  .row1{
+    margin-bottom: 2rem;
+  }
+
+  .footer__left{
+    text-align: center;
+    font-size: 0.95rem;
+    span{
+      margin-right: 1rem;
+    }
+  }
+  .footer__right{
+    text-align: center;
+    i{
+      margin-left: 1rem;
+      cursor: pointer;
+    }
+    .group__icon1{
+      margin-bottom: 1rem;
+    }
+  }
+  .row2{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .copyright{
+    text-align: center;
   }
 }
 
@@ -572,10 +787,10 @@ body {
   }
   .main__background {
   }
-  
+
   .Home {
     width: 100%;
-    
+
     .content__left {
       @include contentLeft();
     }
@@ -590,9 +805,11 @@ body {
     }
   }
 
-  .About {
+  .About,
+  .Services,
+  .Contact {
     width: 100%;
-    
+
     .content__left {
       @include contentLeft();
     }
@@ -716,36 +933,46 @@ body {
   }
 
   //Section5
-  .section5{
+  .section5 {
     margin-top: 50px;
-    .skill-bars{
+    .skill-bars {
       width: 90%;
     }
   }
   //Section6
-  .section6{
+  .section6 {
     margin-top: 50px;
-    .allbox{
+    .allbox {
       margin-top: 10px;
     }
-    .box{
-      
+    .box {
       width: 90%;
-      .section6__icon{
+      .section6__icon {
         font-size: 2rem;
       }
-      .counter{
+      .counter {
         font-size: 1rem;
       }
-      p{
+      p {
         font-size: 1rem;
         margin-bottom: 40px;
       }
     }
   }
+  // About 
+  .AboutSection__card{
+    width: 90%;
+    margin-bottom: 2rem;
+
+  
+  }
+  .AboutContainer{
+    margin-bottom: 6rem;
+  }
+  .AboutSection__card:hover {
+
+  }
 }
 
-
-@media (max-width: 800px){
-
+@media (max-width: 800px) {
 }

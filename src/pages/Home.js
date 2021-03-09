@@ -8,8 +8,7 @@ import Section5 from "../components/Section5";
 import Section6 from "../components/Section6";
 import Navbar from "../components/Navbar";
 import Leftbar from "../components/Leftbar";
-
-
+import Footer from "../components/Footer";
 export default function Home(props) {
   
   useEffect(() => {
@@ -29,6 +28,7 @@ export default function Home(props) {
         <Section4></Section4>
         <Section5></Section5>
         <Section6></Section6>
+        <Footer></Footer>
       </div>
     </div>
   );

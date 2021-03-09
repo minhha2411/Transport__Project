@@ -23,6 +23,7 @@ export default function Section3() {
               <img
                 src="../Images_Transport/icons8-add-user-male-48.png"
                 class="imgAnimation"
+                alt='img'
               ></img>
             </div>
             <div class='processBar__text'>
@@ -37,6 +38,7 @@ export default function Section3() {
               <img
                 src="../Images_Transport/icons8-create-48.png"
                 class="imgAnimation"
+                alt='img'
               ></img>
             </div>
             <div class='processBar__text'>
@@ -50,6 +52,7 @@ export default function Section3() {
               <img
                 src="../Images_Transport/icons8-in-transit-48.png"
                 class="imgAnimation"
+                alt='img'
               ></img>
             </div>
             <div class='processBar__text'>
@@ -65,6 +68,7 @@ export default function Section3() {
               <img
                 src="../Images_Transport/icons8-track-order-48.png"
                 class="imgAnimation"
+                alt='img'
               ></img>
             </div>
             <div class='processBar__text'>
@@ -79,6 +83,7 @@ export default function Section3() {
               <img
                 src="../Images_Transport/icons8-shipped-48.png"
                 class="imgAnimation"
+                alt='img'
               ></img>
             </div>
             <div class='processBar__text'>
@@ -92,6 +97,7 @@ export default function Section3() {
               <img
                 src="../Images_Transport/icons8-money-box-48.png"
                 class="imgAnimation"
+                alt='img'
               ></img>
             </div>
             <div class='processBar__text'>

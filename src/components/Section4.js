@@ -34,7 +34,7 @@ export default function Section4() {
             <img
               src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
               class="d-block w-100"
-              alt="..."
+              alt='img'
             />
             <div class="carousel-caption d-none d-md-block">
               <h5>KHÁCH HÀNG NÓI VỀ CHÚNG TÔI</h5>
@@ -47,6 +47,7 @@ export default function Section4() {
                 <img
                   src="../Images_Transport/img7.jpg"
                   class="carousel__img"
+                  alt='img'
                 ></img>
               </div>
               <h6>KMG CEO</h6>
@@ -56,7 +57,7 @@ export default function Section4() {
             <img
               src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg"
               class="d-block w-100"
-              alt="..."
+              alt="img"
             />
             <div class="carousel-caption d-none d-md-block">
               <h5>KHÁCH HÀNG NÓI VỀ CHÚNG TÔI</h5>
@@ -70,6 +71,7 @@ export default function Section4() {
                 <img
                   src="http://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/team_1.jpg"
                   class="carousel__img"
+                  alt='img'
                 ></img>
               </div>
               <h6>KMG CEO</h6>
@@ -79,7 +81,7 @@ export default function Section4() {
             <img
               src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
               class="d-block w-100"
-              alt="..."
+              alt="img"
             />
             <div class="carousel-caption d-none d-md-block">
               <h5>KHÁCH HÀNG NÓI VỀ CHÚNG TÔI</h5>
@@ -92,6 +94,7 @@ export default function Section4() {
                 <img
                   src="http://wheelco.bold-themes.com/main-demo/wp-content/uploads/sites/2/2017/03/team_4.jpg"
                   class="carousel__img"
+                  alt='img'
                 ></img>
               </div>
               <h6>KMG CEO</h6>

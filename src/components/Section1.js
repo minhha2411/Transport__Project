@@ -18,7 +18,7 @@ export default function Section1() {
         <div class="row">
           <div class="col col-lg-4">
             <div class="section1__card" data-aos="fade-right">
-              <img src="../Images_Transport/icons8-in-transit-96.png"></img>
+              <img src="../Images_Transport/icons8-in-transit-96.png" alt='img'></img>
               <h3>Giao hàng toàn quốc</h3>
               <p>
                 Vận chuyển đường bộ và đường không đến 64 quận/huyện tỉnh thành
@@ -28,7 +28,7 @@ export default function Section1() {
           </div>
           <div class="col col-lg-4">
             <div class="section1__card" data-aos="fade-up" data-aos-delay="300">
-              <img src="../Images_Transport/icons8-get-cash-96.png"></img>
+              <img src="../Images_Transport/icons8-get-cash-96.png" alt='img'></img>
               <h3>Miễn phí thu hộ (COD)</h3>
               <p>
                 Nhân viên giao hàng và thu hộ tiền bạn trên toàn quốc, hệ thống
@@ -42,7 +42,7 @@ export default function Section1() {
               data-aos="fade-left"
               data-aos-delay="500"
             >
-              <img src="../Images_Transport/icons8-deliveryman-96.png"></img>
+              <img src="../Images_Transport/icons8-deliveryman-96.png" alt='img'></img>
               <h3>Sẵn sàng phục vụ</h3>
               <p>
                 Hơn 5 vạn tài xế sẵn sàng vận chuyển hàng hóa của bạn đến bất kì
