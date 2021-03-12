@@ -1,4 +1,4 @@
-- Run npm build 
+- Run npm install
 - Run npm start
 
 // Language, FrameWork Use
